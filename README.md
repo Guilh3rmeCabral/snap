@@ -1,6 +1,6 @@
 # Snap
 
-<p>Projeto feito por diversão e melhorar a agilidade no desenvolvimento e estruturação de código.</p>
+<p>Projeto feito por diversão e para melhorar a agilidade no desenvolvimento e estruturação de código.</p>
 
 ![1Inicial](https://github.com/Guilh3rmeCabral/snap/assets/81389142/df77751f-7c06-4f93-a97f-f6149170a628)
 
