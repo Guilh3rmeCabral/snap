@@ -1,0 +1,73 @@
+.main-container {
+    margin-top: 6rem;
+    margin-left: 10rem;
+}
+
+
+.main-titulo {
+    font-size: 32px;
+    font-family: 'Epilogue', sans-serif;
+    line-height: 65px;
+}
+
+.main-paragrafo {
+    margin-top: 2rem;
+    font-size: 14px;
+    font-family: 'Epilogue', sans-serif;
+    line-height: 20px;
+    color: #636363;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    font-family: 'Epilogue', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+}
+
+.main-btn {
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 140px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 15px;
+    margin-top: 3rem;
+    border: 1px solid #000;
+}
+
+.main-btn:hover {
+    background-color: transparent;
+
+}
+
+.main-img-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5px;
+    width: 5px;
+    gap: 40px;
+    margin-top: 5rem;
+}
+
+
+.img-tamanho {
+    width: 340px;
+}
+
+.main-container-img {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -28rem;
+    margin-right: 10rem;
+}
+
