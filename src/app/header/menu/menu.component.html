@@ -1,0 +1,48 @@
+<div id="menu" >
+    <button mat-button [matMenuTriggerFor]="menuFeatures">
+        Features
+    </button>
+    <button mat-button [matMenuTriggerFor]="menuCompany">
+        Company
+    </button>
+    <button mat-button >
+        Careers
+    </button>
+    <button mat-button>
+        About
+    </button>
+</div>
+
+<mat-menu #menuFeatures="matMenu">
+    <button mat-menu-item>
+        <mat-icon>assignment</mat-icon>
+        <span>Todo List</span>
+    </button>
+
+    <button mat-menu-item>
+        <mat-icon>today</mat-icon>
+        <span>Calendar</span>
+    </button>
+
+    <button mat-menu-item>
+        <mat-icon>notifications</mat-icon>
+        <span>Reminders</span>
+    </button>
+
+    <button mat-menu-item>
+        <mat-icon>alarm</mat-icon>
+        <span>Planning</span>
+    </button>
+</mat-menu>
+
+<mat-menu #menuCompany="matMenu">
+    <button mat-menu-item>
+        <span>History</span>
+    </button>
+    <button mat-menu-item>
+        <span>Our Team</span>
+    </button>
+    <button mat-menu-item>
+        <span>Blog</span>
+    </button>
+</mat-menu>
