@@ -6,16 +6,63 @@
         <img src="./../../assets/logo.svg"/>
     </div>
 
-    <app-menu class="header-menu"></app-menu>
-
-
-
+    <div class="header-altura-margin">
+        <div id="menu" >
+            <button class="menu-header" [matMenuTriggerFor]="menuFeatures">
+                Features
+            </button>
+            <button class="menu-header" [matMenuTriggerFor]="menuCompany">
+                Company
+            </button>
+            <button class="menu-header">
+                Careers
+            </button>
+            <button class="menu-header">
+                About
+            </button>
+        </div>
+        
+        <mat-menu class="subMenu" #menuFeatures="matMenu">
+            <button mat-menu-item>
+               <img  class="subMenu-espacamento" src="./../../assets/icon-todo.svg" alt="">
+                <span>Todo List</span>
+            </button>
+        
+            <button mat-menu-item>
+                <img class="subMenu-espacamento" src="./../../assets/icon-calendar.svg" alt="">
+                <span>Calendar</span>
+            </button>
+        
+            <button mat-menu-item>
+                <img class="subMenu-espacamento" src="./../../assets/icon-reminders.svg" alt="">
+                <span>Reminders</span>
+            </button>
+        
+            <button mat-menu-item>
+                <img class="subMenu-espacamento" src="./../../assets/icon-planning.svg" alt="">
+                <span>Planning</span>
+            </button>
+        </mat-menu>
+        
+        <mat-menu #menuCompany="matMenu">
+            <button mat-menu-item>
+                <span>History</span>
+            </button>
+            <button mat-menu-item>
+                <span>Our Team</span>
+            </button>
+            <button mat-menu-item>
+                <span>Blog</span>
+            </button>
+        </mat-menu>
+    
+    </div>
 </div>
 <div class="menu-login-register">
-    <button mat-button >
+    <button class="tamanho-font" >
         <p>Login</p>
     </button>
-    <button mat-button class="register">
+    <button class="register tamanho-font">
         Register
     </button>
 </div>
