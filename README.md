@@ -1,7 +1,7 @@
 # Snap
 
 <p>Projeto feito por diversão e para melhorar a agilidade no desenvolvimento e estruturação de código.</p>
-<span>Ainda falta aplicar para outros tipos de telas!</span>
+<p>Ainda falta aplicar para outros tipos de telas!</p>
 <br>
 
 ![1Inicial](https://github.com/Guilh3rmeCabral/snap/assets/81389142/df77751f-7c06-4f93-a97f-f6149170a628)
